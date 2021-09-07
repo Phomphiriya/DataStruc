@@ -19,3 +19,17 @@ class Calculator :
 x,y = input("Enter num1 num2 : ").split(",")
 c = Calculator(int(x),int(y))
 print(c.__add__(),c.__sub__(),c.__mul__(),c.__truediv__(),sep = "\n")
+
+# Enter num1 num2 : 5,5
+# 10
+# 0
+# 25
+# 1.0
+
+# Enter num1 num2 : 20,5
+# 25
+# 15
+# 100
+# 4.0
+
+

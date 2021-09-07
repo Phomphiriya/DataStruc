@@ -28,3 +28,19 @@ inp = list(map(int,input("input : ").split(',')))
 print('Original Cofllection: ', inp)
 print('Collection of distinct numbers:')
 print('', permute(inp))
+
+# *** Fun with permute ***
+# input : 1,2,3
+# Original Cofllection:  [1, 2, 3]
+# Collection of distinct numbers:
+#  [[3, 2, 1], [2, 3, 1], [2, 1, 3], [3, 1, 2], [1, 3, 2], [1, 2, 3]]
+
+#  *** Fun with permute ***
+# input : 1,1,2,3
+# Original Cofllection:  [1, 1, 2, 3]
+# Collection of distinct numbers:
+#  [[3, 2, 1, 1], [2, 3, 1, 1], [2, 1, 3, 1], [2, 1, 1, 3], [3, 1, 2, 1], 
+#  [1, 3, 2, 1], [1, 2, 3, 1], [1, 2, 1, 3], [3, 1, 1, 2], [1, 3, 1, 2], 
+#  [1, 1, 3, 2], [1, 1, 2, 3], [3, 2, 1, 1], [2, 3, 1, 1], [2, 1, 3, 1], 
+#  [2, 1, 1, 3], [3, 1, 2, 1], [1, 3, 2, 1], [1, 2, 3, 1], [1, 2, 1, 3], 
+#  [3, 1, 1, 2], [1, 3, 1, 2], [1, 1, 3, 2], [1, 1, 2, 3]]
