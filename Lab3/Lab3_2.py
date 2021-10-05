@@ -53,6 +53,7 @@ try:
         print("open paren excess   {} : {}".format(s.size(),''.join(s.items)))
     else:
         print("Unmatch open-close")
+
 except:
     print(inp+" close paren excess")
 

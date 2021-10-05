@@ -66,7 +66,7 @@ for i in range(q1.size()):
         lover += 1
         q1.deQueue()
         q2.deQueue()
-    else: 
+    else:
         lover -= 5
         q1.deQueue()
         q2.deQueue()
