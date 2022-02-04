@@ -24,7 +24,6 @@ def permute(inp):
 print('*** Fun with permute ***')
 
 inp = list(map(int,input("input : ").split(',')))
-
 print('Original Cofllection: ', inp)
 print('Collection of distinct numbers:')
 print('', permute(inp))

@@ -56,7 +56,7 @@ def mergeOrderesList(L1,L2):
 
 #################### FIX comand ####################   
 
-inp = input("Enter 2 Lists : ").split()
+inp = input("Enter 2 Lists : ").split('/')
 LL1 = createList(list(map(int,inp[0].split(','))))
 LL2 = createList(list(map(int,inp[1].split(','))))
 print('LL1 : ',end='')
